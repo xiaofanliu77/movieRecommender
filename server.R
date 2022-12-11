@@ -95,20 +95,6 @@ recommender.UBCF <- Recommender(Rmat, method = "UBCF",
                                 parameter = list(normalize = 'Z-score', 
                                                  method = 'Cosine', 
                                                  nn = 25))
-#recommender.IBCF <- Recommender(train, method = "IBCF",
-#                                parameter = list(normalize = 'center', 
-#                                                 method = 'Cosine', 
-#                                                 k = 30))
-
-#p.UBCF <- predict(recommender.UBCF, test, type="ratings")
-#p.UBCF <- as.numeric(as(p.UBCF, "matrix"))
-
-# reshape to books x user matrix 
-# ratingmat <- sparseMatrix(ratings$book_id, ratings$user_id, x=ratings$rating) # book x user matrix
-# ratingmat <- ratingmat[, unique(summary(ratingmat)$j)] # remove users with no ratings
-# dimnames(ratingmat) <- list(book_id = as.character(1:10000), user_id = as.character(sort(unique(ratings$user_id))))
-
-
 
 shinyServer(function(input, output, session) {
   # show the movies to be rated (recommend by rating)

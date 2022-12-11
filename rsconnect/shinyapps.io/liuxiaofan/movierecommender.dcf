@@ -1,0 +1,11 @@
+name: movierecommender
+title:
+username:
+account: liuxiaofan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7866301
+bundleId: 6622363
+url: https://liuxiaofan.shinyapps.io/movierecommender/
+when: 1670741487.70267
+lastSyncTime: 1670741487.70268

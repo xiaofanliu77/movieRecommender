@@ -1,10 +1,12 @@
 ## ui.R
 library(shiny)
+library(dplyr)
 library(shinydashboard)
 library(recommenderlab)
 library(data.table)
 library(ShinyRatingInput)
 library(shinyjs)
+library(reshape2)
 
 source('functions/helpers.R')
 
