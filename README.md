@@ -1,3 +1,3 @@
 # Movie Recommender
 
-PSL Project @ UIUC, Fall 2023
+PSL Project @ UIUC, Fall 2022
